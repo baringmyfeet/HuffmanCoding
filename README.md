@@ -1,4 +1,4 @@
-# HuffmanCoding
+# HuffmanCoding (C++)
 
 Huffman Coding Project Statement
 
