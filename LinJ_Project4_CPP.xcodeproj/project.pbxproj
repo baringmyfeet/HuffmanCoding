@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		E8101D7B1AC497EA006015D6 /* LinJ_Project4_CPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinJ_Project4_CPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8101D7E1AC497EA006015D6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E8101D851AC498EC006015D6 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		E8101D861AC499E9006015D6 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				E8101D7E1AC497EA006015D6 /* main.cpp */,
+				E8101D851AC498EC006015D6 /* Node.h */,
+				E8101D861AC499E9006015D6 /* LinkedList.h */,
 			);
 			path = LinJ_Project4_CPP;
 			sourceTree = "<group>";
@@ -202,6 +206,8 @@
 		E8101D831AC497EA006015D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_WARN_PEDANTIC = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,6 +215,8 @@
 		E8101D841AC497EA006015D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_WARN_PEDANTIC = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
